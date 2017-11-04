@@ -1,6 +1,10 @@
 package Chess.Controllers;
 
-public class Play{
+public class PlayController{
+	
+	public PlayController(){
+		
+	}
 	/*
 	private Color turn;
 	
