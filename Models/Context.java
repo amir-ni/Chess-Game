@@ -5,15 +5,13 @@ import Chess.Models.Player;
 
 class Context {
 	
-	private Board CurrentBoard;
+	public Board CurrentBoard;
 		
-	private ArrayList<Player> CurrentPlayers;
+	public ArrayList<Player> CurrentPlayers;
 	
-	public void Context(Player WhitePiecesPlayer, Player BlackPiecesPlayer)
+	public void Context()
    	{
 		this.CurrentBoard = new Board();
-		this.CurrentPlayers.add(WhitePiecesPlayer);
-		this.CurrentPlayers.add(BlackPiecesPlayer);
 	}
 	
 }
