@@ -9,11 +9,11 @@ class Context {
 		
 	private ArrayList<Player> CurrentPlayers;
 	
-	public void Context(Player player1, Player player2)
+	public void Context(Player WhitePiecesPlayer, Player BlackPiecesPlayer)
    	{
 		this.CurrentBoard = new Board();
-		this.CurrentPlayers.add(player1);
-		this.CurrentPlayers.add(player2);
+		this.CurrentPlayers.add(WhitePiecesPlayer);
+		this.CurrentPlayers.add(BlackPiecesPlayer);
 	}
 	
 }
