@@ -15,9 +15,17 @@ class Context {
 	}
 	
 	public void Seed(){
+		
 		this.CurrentBoard = new Board();
-		this.CurrentPlayers.add(new Player);
-		this.CurrentPlayers.add(new Player);
+		
+		Player firstPlayer = new Player;
+		firstPlayer.SetColor(Color.WHITE);
+		this.CurrentPlayers.add(firstPlayer);
+		
+		Player secondPlayer = new Player;
+		secondPlayer.SetColor(Color.BLACK);
+		this.CurrentPlayers.add(secondPlayer);
+		
 	}
 	
 }
