@@ -11,7 +11,13 @@ class Context {
 	
 	public void Context()
    	{
+		this.Seed();
+	}
+	
+	public void Seed(){
 		this.CurrentBoard = new Board();
+		this.CurrentPlayers.add(new Player);
+		this.CurrentPlayers.add(new Player);
 	}
 	
 }
