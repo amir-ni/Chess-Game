@@ -14,7 +14,7 @@ class Context {
 		this.Seed();
 	}
 	
-	public void Seed(){
+	protected void Seed(){
 		
 		this.CurrentBoard = new Board();
 		
